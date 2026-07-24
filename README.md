@@ -192,14 +192,15 @@ After re-estimating the pose at the robot's true location and heading, the laser
 
 ```
 slam-mapping-localization-[YOUR-NAME]/
-└── slam_toolbox_demo/
+├── slam_toolbox_demo/
     ├── config/        (mapping + localization yaml)
     ├── launch/        (mapping + localization launch files)
     ├── map/           (turtlebot3_world_map.yaml / .pgm)
     ├── posegraph/     (.posegraph + .data)
-    ├── CMakeLists.txt
-    ├── package.xml
-    └── README.md
+├── CMakeLists.txt
+├── package.xml
+├── screenshots
+└── README.md
 ```
 
 ---
