@@ -1,5 +1,10 @@
 # slam-mapping-localization-Mahmoud-Hassan
 
+
+https://github.com/user-attachments/assets/2d60b31c-e9aa-47c7-ae91-f3afffda15c9
+
+
+
 ## 1. Task Overview
 
 This project demonstrates the full SLAM Toolbox workflow on a two-wheeled TurtleBot3 robot equipped with a LiDAR, operating inside the `turtlebot3_world` Gazebo environment.
@@ -170,7 +175,7 @@ This confirms `/odom` is publishing valid, near-zero pose/twist values consisten
 
 The TF tree must show the full chain: **`map` → `odom` → `base_footprint` → `base_link`**.
 
-![TF Tree](TF_tree.png)
+![TF Tree](screenshots/TF_tree.png)
 
 The screenshot above shows RViz with `Fixed Frame` set to `map`, all TF transforms reporting `Transform OK` (`base_footprint`, `odom`, `map`, `base_link`, `caster_back_link`, `imu_link`, `base_scan`, `wheel_left_link`, `wheel_right_link`), alongside the Gazebo simulation view and the localization launch terminal output showing the pose graph being loaded from `/root/workspaces/my_robot_ws/src/slam_toolbox_demo/posegraph/turtlebot3_world.posegraph`.
 
