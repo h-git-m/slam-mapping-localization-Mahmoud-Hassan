@@ -204,16 +204,9 @@ slam-mapping-localization-[YOUR-NAME]/
 ```
 
 ---
+## 6. Screenshots
 
-## 6. Submission Checklist
-
-- [ ] Repository is **PUBLIC**
-- [ ] Map saved: `turtlebot3_world_map.yaml` + `.pgm` included
-- [ ] Pose graph saved: `.posegraph` + `.data` included (sizes in tens of KB, not bytes)
-- [ ] Mapping launch file and config work without errors
-- [ ] Localization launch file and config work without errors
-- [ ] Screenshot + reported observations of the wrong initial pose in RViz
-- [ ] Screenshot + reported observations of the correct initial pose in RViz
-- [ ] TF tree screenshot showing `map → odom → base_footprint → base_link`
-- [ ] Terminal output of `/odom` echo included in README (above)
-- [ ] Built cleanly with `colcon build` and no errors
+- Robot Wrong initial pose: [Robot Wrong 2D pose estimate in RViz](screenshots/task6_wrong initial 2d pose estimate_1.png) [Robot Wrong initial pose LiDAR misalignmenet in RViz](screenshots/task6_wrong initial 2d pose estimate.png)
+- Robot Correct initial pose: [Robot correct initial pose in RViz](screenshots/task6_correct initial 2d pose estimate.png)
+- TF tree: [TF Tree - RVIZ](screenshots/TF_tree.png) 
+  
