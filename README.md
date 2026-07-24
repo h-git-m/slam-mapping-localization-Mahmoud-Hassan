@@ -206,7 +206,7 @@ slam-mapping-localization-[YOUR-NAME]/
 ---
 ## 6. Screenshots
 
-- Robot Wrong initial pose: [Robot Wrong 2D pose estimate in RViz](screenshots/task6_wrong initial 2d pose estimate_1.png) [Robot Wrong initial pose LiDAR misalignmenet in RViz](screenshots/task6_wrong initial 2d pose estimate.png)
-- Robot Correct initial pose: [Robot correct initial pose in RViz](screenshots/task6_correct_initial_2d_pose _estimate.png)
+- Robot Wrong initial pose: [Robot Wrong 2D pose estimate in RViz](screenshots/task6_wrong_initial_2d_pose_estimate_1.png) [Robot Wrong initial pose LiDAR misalignmenet in RViz](screenshots/task6_wrong_initial_2d_pose_estimate.png)
+- Robot Correct initial pose: [Robot correct initial pose in RViz](screenshots/task6_correct_initial_2d_pose_estimate.png)
 - TF tree: [TF Tree - RVIZ](screenshots/TF_tree.png) 
   
